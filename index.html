@@ -44,35 +44,37 @@
     <!-- /header section -->
 
     <!-- main section -->
-    <div class="contenier">
-        <section id="main-section" class="main-section">
-            <div class="main-section__info" >
-            <h4 class="main-section__welcome to-uppercase">Salom hammaga!</h4>
-            <h1 class="main-section__is to-uppercase">I am Xatamov Zaxiriddin</h1>
-            <h3 class="main-section__position to-uppercase">Python developer</h3>
-            <div class="main-section__socialmedia">
-                <a href="https://t.me/zahridd1n" target="_blank">
-                    <img class="social-icons" src="image/telegram-desktop.svg" alt="telegram" >
-                </a>
-                <a href="https://www.instagram.com/zahridd1n" target="_blank">
-                    <img class="social-icons" src="image/instagram.svg" alt="instagram" >
-                </a>
-                <a href="https://github.com/zahridd1n" target="_blank">
-                    <img class="social-icons" src="image/github.svg" alt="github" >
-                </a>
-            </div>
+    <div class="main-banner"> 
+        <div class="contenier">
+            <section id="main-section" class="main-section">
+                <div class="main-section__info" >
+                    <h4 class="main-section__welcome to-uppercase">Salom hammaga!</h4>
+                    <h1 class="main-section__is to-uppercase">I am Xatamov Zaxiriddin</h1>
+                    <h3 class="main-section__position to-uppercase">Python developer</h3>
+                    <div class="main-section__socialmedia">
+                        <a href="https://t.me/zahridd1n" target="_blank">
+                            <img class="social-icons" src="image/telegram-desktop.svg" alt="telegram" >
+                        </a>
+                        <a href="https://www.instagram.com/zahridd1n" target="_blank">
+                            <img class="social-icons" src="image/instagram.svg" alt="instagram" >
+                        </a>
+                        <a href="https://github.com/zahridd1n" target="_blank">
+                            <img class="social-icons" src="image/github.svg" alt="github" >
+                        </a>
+                    </div>
 
-            <button type="button" class="button main-section__button">
-                    Ishlarimni ko'ring
-            </button>
-            </div>
-            <div class="main-section__image">
-                <img src="image/img2.jpg" alt="My Image">
-    
-            </div>
-            
-        </section>
-        <div class="clear"></div>
+                    <button type="button" class="button main-section__button">
+                            Ishlarimni ko'ring
+                    </button>   
+                </div>
+                <div class="main-section__image">
+                    <img src="image/img2.png" alt="My Image">
+        
+                </div>
+                
+            </section>
+            <div class="clear"></div>
+        </div>
     </div>
     <!-- /main section -->
     <!-- statistics -->
@@ -108,7 +110,7 @@
     <div class="contenier">
         <section id="about-me" class="about-me">
             <div class="about-me__image">
-                <img src="image/img2.jpg" alt="Image">
+                <img src="image/img2.png" alt="Image">
             </div>
             <div class="about-me__info">
                 <h5 class="section-subtitle">
@@ -204,12 +206,36 @@
             <div class="section-title">
                 Mening oxirgi <br> ishlarimni ko'ring
             </div>
-            <div class="partfolio-items">
-                <div class="partfolio-item">
+            <ul class="partfolio-filters">
+                <li class="active">Hammasi</li>
+                <li>Mashxurlari</li>
+                <li>Oxirgilari</li>
+                
+
+            </ul>
+
+            <div class="partfolio-items ">
+                <div class="partfolio-item partfolio-item-1">
                     <img src="image/pf1.jpg" alt="Portfolio image 1" class="partfolio-item__image">
                     <div class="partfolio-item__overlay"></div>
                     <div class="partfolio-item__info">
                         <h4><a href="#">Portfolio item 1</a></h4>
+                        <p>ishim haqida</p>
+                    </div>
+                </div>
+                <div class="partfolio-item partfolio-item-2">
+                    <img src="image/pf2.jpg" alt="Portfolio image 2" class="partfolio-item__image">
+                    <div class="partfolio-item__overlay"></div>
+                    <div class="partfolio-item__info">
+                        <h4><a href="#">Portfolio item 2</a></h4>
+                        <p>ishim haqida</p>
+                    </div>
+                </div>
+                <div class="partfolio-item partfolio-item-3">
+                    <img src="image/banner.jpg" alt="Portfolio image 3" class="partfolio-item__image">
+                    <div class="partfolio-item__overlay"></div>
+                    <div class="partfolio-item__info">
+                        <h4><a href="#">Portfolio item 3</a></h4>
                         <p>ishim haqida</p>
                     </div>
                 </div>
@@ -219,9 +245,85 @@
         <!-- /partfolio section  -->
 
     <!-- blog section -->
-    <section>
-        <h1>Blog</h1>
-    </section>
+    <div class="contenier">
+        <section id="blog" class="blog">
+            <div class="section-subtitle">Menign blogim 
+                <span class="blur-line"></span>
+            </div>
+            
+            <div class="section-title">
+                Oxirgi maqolalarim
+            </div>
+            <div class="blog-items">
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="image/b1.jpg" alt="blog 1">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <img src="image/admin-icon.svg" alt="admin:">
+                            <span class="blog-item__author">
+                                Admin post
+                            </span>
+                            <img src="image/calendar-days-svgrepo-com.svg" alt="daje:">
+                            <span class="blog-item__date">
+                                Feb 5,2023
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">Mening maqolam</h5>
+                        <p class="blog-item__description">
+                            Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
+                        </p>
+                        <a href="#" class="blog-item__learn-more">ko'proq o'qish</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="image/b2.jpg" alt="blog 1">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <img src="image/admin-icon.svg" alt="admin:">
+                            <span class="blog-item__author">
+                                Admin post
+                            </span>
+                            <img src="image/calendar-days-svgrepo-com.svg" alt="daje:">
+                            <span class="blog-item__date">
+                                Feb 5,2023
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">Mening maqolam</h5>
+                        <p class="blog-item__description">
+                            Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
+                        </p>
+                        <a href="#" class="blog-item__learn-more">ko'proq o'qish</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="image/b3.jpg" alt="blog 1">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <img src="image/admin-icon.svg" alt="admin:">
+                            <span class="blog-item__author">
+                                Admin post
+                            </span>
+                            <img src="image/calendar-days-svgrepo-com.svg" alt="daje:">
+                            <span class="blog-item__date">
+                                Feb 5,2023
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">Mening maqolam</h5>
+                        <p class="blog-item__description">
+                            Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
+                        </p>
+                        <a href="#" class="blog-item__learn-more">ko'proq o'qish</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- /blog section -->
 
     <!-- Sheriklar section -->
